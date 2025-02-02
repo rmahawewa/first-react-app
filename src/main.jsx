@@ -6,7 +6,8 @@ import "./index.css";
 // import Greeting1 from './Greeting1.jsx';
 // import { Talk, Talk1 } from './Greeting2.jsx';
 // import { cube, foo, graph } from "./module1.js";
-import { AddStudent } from "./Student.jsx";
+// import { AddStudent } from "./Student.jsx";
+import { Dashboard } from "./Dashboard";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -16,6 +17,7 @@ createRoot(document.getElementById("root")).render(
     <Talk />
     <Talk1 /> */}
 
-    <AddStudent />
+    {/* <AddStudent /> */}
+    <Dashboard />
   </StrictMode>
 );

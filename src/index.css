@@ -1,3 +1,15 @@
+.dashboard-content{
+  display: flex;
+  gap: 3rem;
+}
+
+.side-bar{
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
 .form_container{
   display: flex;
   align-items: center;
